@@ -10,5 +10,5 @@ function addElementToBeginningOfArray(array, element) {
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   const appendix = [element, ...array]
-  return apendix;
+  return appendix;
 }
