@@ -9,6 +9,5 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  const array = [element, ...array]
-  return array;
+  return array = [element, ...array];
 }
